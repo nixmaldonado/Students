@@ -27,4 +27,8 @@ public class StudentService{
     public void updateStudent(Student student) {
         this.studentDao.updateStudent(student);
     }
+
+    public void createStudent(Student student) {
+        this.studentDao.createStudent(student);
+    }
 }

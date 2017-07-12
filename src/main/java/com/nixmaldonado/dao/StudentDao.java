@@ -39,4 +39,8 @@ public class StudentDao{
         s.setName(student.getName());
         students.put(student.getId(), student);
     }
+
+    public void createStudent(Student student) {
+        students.put(student.getId(), student);
+    }
 }
